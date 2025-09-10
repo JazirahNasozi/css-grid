@@ -1,12 +1,13 @@
 .grid-container {
     border: 2px dashed purple;
     min-height: 500px;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 50px;
     padding: 10px;
     display: grid;
     grid-template-columns: 200px 1fr 200px;
     grid-template-rows: 60px 1fr 50px;
+    
 }
 .grid-item {
     border: 1px solid rgb(202, 107, 73);
@@ -39,4 +40,12 @@
     background-color: peru;
     grid-column: 1 / span 3;
     grid-row: 3 / 4;
+}
+.navlinks{
+display: flex;
+flex-direction: row;
+list-style: none;
+gap: 50px;
+align-items: center;
+justify-content: flex-end;
 }
